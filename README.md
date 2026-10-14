@@ -1,20 +1,66 @@
 # little starry magical girl
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>little starry magical girl Website</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Welcome to Official little starry magical girl</h1>
-    </header>
-    <main>
-        <p>This website is successfully hosted for free using GitHub Pages!</p>
-        <button id="alertBtn">Click Me</button>
-    </main>
-    <script src="script.js"></script>
-</body>
-</html>
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.carousel-item img{
+	width: 100%;
+	height: 93vh;
+
+
+}
+
+
+.horizontal-card-img img{
+	width: 100%;
+	height: 35vh;
+
+
+
+}
+
+
+
+.about_img{
+	min-width: 100%;
+	max-height: 280px;
+
+}
+
+
+.chekcout-my-profile{
+	background: #a6dcef;
+}
+
+footer p{
+	margin-bottom: 0;
+}
+
+
+/*.my-service .row>*{
+	padding-right: 0;
+    padding-left: 0;
+}*/
+
+/*for responsive design*/
+/*// X-Small devices (portrait phones, less than 576px)*/
+/*// No media query for `xs` since this is the default in Bootstrap*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { ... }
