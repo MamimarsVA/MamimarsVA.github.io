@@ -7,7 +7,7 @@
     <style>
         /* Soft, warm pastel background */
         body {
-            background-color: #fff0f5; /* Lavender Blush */
+            background-color: #eef7ff; /* Sky Blue */
             font-family: 'Quicksand', 'Segoe UI', sans-serif;
             color: #6c5b7b;
             display: flex;
@@ -75,7 +75,7 @@
 <body>
 
     <div class="card">
-        <h1>Hello Beautiful! <span class="sparkles">✨</span></h1>
+        <h1>Hello LSMG FAN! <span class="sparkles">✨</span></h1>
         <p>Welcome to my cozy digital space. I'm coding interactive layouts using sweet pastel accents, soft drop shadows, and bouncy transitions.</p>
         <button class="cute-btn" onclick="alert('Yay! Thanks for visiting! 💕')">Click Me! 🐾</button>
     </div>
