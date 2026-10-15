@@ -1,5 +1,5 @@
 html
-<!DOCTYPE html>
+<Little Starry Magical Girl>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
