@@ -1,54 +1,84 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Little Starry Magical Girl</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My Cute Corner ✨</title>
+    <style>
+        /* Soft, warm pastel background */
+        body {
+            background-color: #fff0f5; /* Lavender Blush */
+            font-family: 'Quicksand', 'Segoe UI', sans-serif;
+            color: #6c5b7b;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        /* Cute main container */
+        .card {
+            background: #ffffff;
+            border: 4px solid #ffb6c1; /* Light Pink Border */
+            border-radius: 24px;
+            box-shadow: 0 8px 24px rgba(255, 182, 193, 0.4);
+            padding: 30px;
+            max-width: 400px;
+            width: 90%;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        /* Soft float effect when hovering over the card */
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Sparkly header */
+        h1 {
+            color: #ff6b8b;
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Cute round button with bouncy hover animation */
+        .cute-btn {
+            background-color: #ffb6c1;
+            color: white;
+            border: none;
+            padding: 12px 28px;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(255, 182, 193, 0.5);
+            transition: all 0.2s ease-in-out;
+        }
+
+        .cute-btn:hover {
+            background-color: #ff6b8b;
+            transform: scale(1.05);
+        }
+        
+        .sparkles {
+            color: #ffd700;
+        }
+    </style>
 </head>
 <body>
 
-    <!-- Header / Navigation -->
-    <header>
-        <nav class="container">
-            <div class="logo">MyBrand</div>
-            <ul class="nav-links">
-                <li><a href="#features">Features</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container hero-content">
-            <h1>Modern HTML & CSS Template</h1>
-            <p>Clean, fast, responsive, and completely ready to deploy instantly onto GitHub Pages.</p>
-            <a href="https://github.com" target="_blank" class="btn">Get Started</a>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section id="features" class="features container">
-        <div class="card">
-            <h3>⚡ Ultra Fast</h3>
-            <p>Built with lightweight, clean HTML5 and CSS3 code for maximum page speeds.</p>
-        </div>
-        <div class="card">
-            <h3>📱 Responsive</h3>
-            <p>Looks gorgeous and flows seamlessly across smartphones, tablets, and desktop screens.</p>
-        </div>
-        <div class="card">
-            <h3>🎨 Easy Customization</h3>
-            <p>Modify colors, fonts, layout properties, and styling structures via a single CSS file.</p>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 My GitHub Website. All rights reserved.</p>
-    </footer>
+    <div class="card">
+        <h1>Hello Beautiful! <span class="sparkles">✨</span></h1>
+        <p>Welcome to my cozy digital space. I'm coding interactive layouts using sweet pastel accents, soft drop shadows, and bouncy transitions.</p>
+        <button class="cute-btn" onclick="alert('Yay! Thanks for visiting! 💕')">Click Me! 🐾</button>
+    </div>
 
 </body>
 </html>
-/*// XX-Large devices (larger desktops, 1400px and up)*/
-@media (min-width: 1400px) { ... }
